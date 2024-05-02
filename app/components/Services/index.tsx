@@ -72,7 +72,7 @@ export function Services() {
               {item.image ? (
                 <Image src={item.image} width={80} height={80} loading="lazy" alt={item.title} />
               ) : (
-                <Icon icon={item.icon} className="text-[40px]" />
+                <Icon icon={item.icon} className={classes.icon} />
               )}
               <h3 className={classes.subtitle}>{item.title}</h3>
 

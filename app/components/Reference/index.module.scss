@@ -23,5 +23,5 @@
 }
 
 .largeTitle {
-  @apply absolute -left-[20px] bottom-0 text-[300px] leading-[0] font-bold text-reference-largeTitle -translate-x-full;
+  @apply absolute -left-[20px] bottom-8 md:bottom-12 text-[170px] md:text-[300px] leading-[0] font-bold text-reference-largeTitle -translate-x-full;
 }

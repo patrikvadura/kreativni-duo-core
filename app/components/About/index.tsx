@@ -44,14 +44,19 @@ export function About() {
   return (
     <div id="about" className="md:pt-12 lg:pt-24 md:px-8 lg:px-24">
       <div className={classes.main} ref={main}>
-        <div className="max-w-screen-md space-y-8 text-left py-12 px-8 md:p-16">
-          <h3 className={classes.title} ref={title}>
-            {data.about.title}
-          </h3>
+        <div className="max-w-screen-lg space-y-8 text-left py-12 px-8 md:p-16">
+          <h3
+            dangerouslySetInnerHTML={{ __html: data.about.title }}
+            className={classes.title}
+            ref={title}
+          />
 
           <Divider orientation="horizontal" ref={divider} className={classes.divider} />
 
-          <p className={classes.description}>{data.about.description}</p>
+          <p
+            dangerouslySetInnerHTML={{ __html: data.about.description }}
+            className={classes.description}
+          />
 
           <div className="mt-12 space-x-4">
             <Link href={data.about.cta.link} className={classes.cta}>

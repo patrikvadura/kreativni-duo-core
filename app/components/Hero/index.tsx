@@ -71,9 +71,11 @@ export function Hero() {
               {data.hero.subtitle}
             </h3>
 
-            <h2 className={classes.title} ref={title}>
-              {data.hero.title}
-            </h2>
+            <h2
+              dangerouslySetInnerHTML={{ __html: data.hero.title }}
+              className={classes.title}
+              ref={title}
+            />
 
             <div className="mt-12 space-x-4">
               <Link href={data.hero.cta.primary.link} className={classes.cta}>

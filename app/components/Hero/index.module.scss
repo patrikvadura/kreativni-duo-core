@@ -1,5 +1,5 @@
 .title {
-  @apply text-[40px] md:text-[70px] leading-[1.5] text-hero-title font-bold translate-y-[100px];
+  @apply text-[40px] md:text-[70px] leading-[1.2] text-hero-title font-bold translate-y-[100px];
 }
 
 .subtitle {
@@ -7,11 +7,11 @@
 }
 
 .largeTitle {
-  @apply absolute -left-[20px] bottom-0 text-[300px] leading-[0] font-bold text-hero-largeTitle -translate-x-full;
+  @apply absolute -left-[20px] bottom-8 md:bottom-16 text-[200px] md:text-[300px] leading-[0] font-bold text-hero-largeTitle -translate-x-full;
 }
 
 .profileImage {
-  @apply absolute right-0 object-cover bottom-0 size-[600px] md:size-[850px] lg:size-[1050px] lg:translate-y-[120px] translate-x-[60px] opacity-0 z-0;
+  @apply absolute right-0 object-cover bottom-0 size-[600px] md:size-[850px] lg:size-[900px] opacity-0 z-0;
 }
 
 .gradientOverlay {

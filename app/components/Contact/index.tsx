@@ -41,7 +41,7 @@ export function Contact() {
           ref={title}
         />
 
-        <div className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 items-center text-center">
+        <div className="flex flex-col lg:flex-row space-y-4 md:space-y-0 md:space-x-8 items-center text-center">
           <Link href={`mailto:${data.contact.email}`} className={classes.cta}>
             <Icon icon="material-symbols:alternate-email" />
             {data.contact.email}
@@ -49,7 +49,12 @@ export function Contact() {
 
           <Link href={`tel:${data.contact.phone}`} className={classes.cta}>
             <Icon icon="material-symbols:call" />
-            {data.contact.phone}
+            {data.contact.phone} #Denča
+          </Link>
+
+          <Link href={`tel:${data.contact.phone2}`} className={classes.cta}>
+            <Icon icon="material-symbols:call" />
+            {data.contact.phone2} #Áďa
           </Link>
 
           <p className="text-contact-title text-xl font-semibold tracking-wider">

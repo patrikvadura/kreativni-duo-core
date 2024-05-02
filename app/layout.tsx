@@ -7,10 +7,10 @@ import Script from 'next/script'
 import { Providers } from '@/app/providers'
 import Header from '@/app/ui/Header'
 import Footer from '@/app/ui/Footer'
-import { Hind } from 'next/font/google'
+import { Nunito } from 'next/font/google'
 import './globals.css'
 
-const defaultFont = Hind({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'] })
+const defaultFont = Nunito({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${process.env.VERCEL_URL}`),

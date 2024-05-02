@@ -2,7 +2,7 @@
   "profile": {
     "name": "Patrik Indra",
     "nameClaim": "Finanční specialista",
-    "logo": null,
+    "logo": "/assets/img/logo.svg",
     "logoDark": null,
     "image": "/assets/img/profileImage.webp",
     "cookie": false,
@@ -22,37 +22,37 @@
     }
   },
   "hero": {
-    "title": "Ve financích se na mě můžete spolehnout",
-    "subtitle": "Finanční specialista",
-    "largeTitle": "Finance",
+    "title": "Přetváříme návrh v&nbsp;hotový produkt",
+    "subtitle": "Grafika, texty & reklamní předměty",
+    "largeTitle": "Tvoříme",
     "cta": {
       "primary": {
-        "title": "Nezávazná konzultace",
-        "link": "#form"
+        "title": "Napiš nám",
+        "link": "#contact"
       },
       "secondary": {
-        "title": "Kdo jsem?",
+        "title": "Kdo jsme?",
         "link": "#about"
       }
     }
   },
   "about": {
-    "title": "Pomůžu zajistit vaši budoucnost a cíle",
-    "description": "Již více než 10 let pomáhám klientům v řešení finančního zázemí, zajištění příjmu v případě nemoci / úrazu a dále v přípravě na jejich budoucnost a cíle. Spolupráci si zakládám na fér jednání, zodpovědném přístupu a na kvalitě předávaných informací. Věřím, že jen poctivě odvedená práce může naši spolupráci posunout dále. Pokud právě tyto hodnoty ve financích hledáte, už víte, na koho se obrátit.",
+    "title": "Vytvoříme ti návrh, který za tebe proměníme v&nbsp;hotový produkt",
+    "description": "Těší nás Áďa a Denča. Jsme kolegyně, kamarádky a tvůrčí duše, které se narodily ve stejný den, jen v jiném roce. Začalo to nevinně, ale přerostlo to v různé spolupráce, tak jsme si řekly, proč se více nenabídnout světu a tvořit i pro ostatní.",
     "cta": {
-      "title": "Nezávazná konzultace",
+      "title": "Ozvi se nám",
       "link": "#form"
     }
   },
   "services": {
-    "title": "Nabídka mých služeb",
+    "title": "Co ti můžeme nabídnout?",
     "style": "background",
     "items": [
       {
-        "title": "Úvěry",
-        "icon": "material-symbols:arrow-forward-rounded",
-        "image": "/assets/icons/icon_uvery.svg",
-        "imageDark": "/assets/icons/icon_uvery.svg",
+        "title": "Grafika",
+        "icon": "solar:pallete-2-broken",
+        "image": null,
+        "imageDark": null,
         "list": {
           "listItems": [
             {
@@ -73,13 +73,13 @@
             }
           ]
         },
-        "description": null
+        "description": "Poskytujeme profesionální grafické designy pro firemní identitu, reklamní materiály a digitální obsah, který nakopne váš byznys."
       },
       {
-        "title": "Investice",
-        "icon": "material-symbols:arrow-forward-rounded",
-        "image": "/assets/icons/icon_investice.svg",
-        "imageDark": "",
+        "title": "Texty",
+        "icon": "tabler:writing-sign",
+        "image": null,
+        "imageDark": null,
         "list": {
           "listItems": [
             {
@@ -100,13 +100,13 @@
             }
           ]
         },
-        "description": null
+        "description": "Připravíme vám poutavý a hlavně prodejní text pro webové stránky, marketingové materiály a firemní komunikaci."
       },
       {
-        "title": "Pojištění",
-        "icon": "material-symbols:arrow-forward-rounded",
-        "image": "/assets/icons/icon_pojisteni.svg",
-        "imageDark": "",
+        "title": "Reklamní předměty",
+        "icon": "ic:sharp-favorite-border",
+        "image": null,
+        "imageDark": null,
         "list": {
           "listItems": [
             {
@@ -127,7 +127,7 @@
             }
           ]
         },
-        "description": null
+        "description": "Nabízíme širokou škálu reklamních předmětů od propagačních dárků až po firemní merch."
       }
     ]
   },
@@ -136,32 +136,18 @@
     "items": [
       {
         "id": 1,
-        "title": "Manželé V. | Brno",
-        "description": "S Patrikem jsme se setkali kvůli pojištění nemovitosti. V jednoduchosti nám vysvětlil rozdíly mezi pojišťovnami a vybral pro nás nejlepší variantu. Od té doby s ním konzultujeme životní pojištění a veškeré investice. Jeho celkový přehled a upřímné jednání jsme ve financích hledali."
-      },
-      {
-        "id": 2,
-        "title": "Libor N. | Uherský Brod",
-        "description": "S Patrikem se známe už řadu let a naši spolupráci si nemohu vynachválit. Vím, že potřeby klienta jsou pro něj na prvním místě. V oblasti financí vždy dokáže věci srozumitelně vysvětlit a následně poradit s výběrem ideálního řešení. K mé velké spokojenosti spolu řešíme také otázky ohledně povinného ručení, životního pojištění, investic i penze."
-      },
-      {
-        "id": 3,
-        "title": "Libor O. | Uherský Brod",
-        "description": "S Patrikem se známe od malička a řeším s ním všechny své pojištění i investice. O všechno se mi skvěle stará, dokázal pro mě najít nejvhodnější finanční nástroje a vždy se na něj můžu obrátit. Mohu jedině doporučit."
-      },
-      {
-        "id": 4,
-        "title": "Manželé J. | Uherský Brod",
-        "description": "Před několika lety jsme se potkali přes doporučení s panem Indrou kvůli hypotéce. Od první schůzky byla jeho práce profesionální a efektivní. Během 3 týdnů bylo vše vyřešeno a my mohli čerpat peníze. Navíc připravil finanční plán, díky kterému můžeme hypotéku splatit dříve a tím pádem ušetřit nemalé peníze. Spolupráci s panem Indrou jen doporučujeme."
+        "title": "Štěpánka Prchlíková | Dentální hygiena",
+        "description": "Holkám moc děkuji za celkové zprostředkování designu a tisku samolepek! Komunikace a rychlost byla na jedničku."
       }
     ]
   },
   "contact": {
-    "title": "Již více než 10 let <span>pomáhám klientům</span> v řešení finančního zázemí.",
-    "subtitle": "Pojďme začít spolupracovat",
-    "email": "indra@saroli.cz",
-    "phone": "+420 123 456 789",
-    "address": "Stojanova 508, Uh. Hradiště"
+    "title": "Rády se budeme podílet na <span>tvém projektu</span>.",
+    "subtitle": "Zavolej nám nebo napiš",
+    "email": "kreativniduo@email.cz",
+    "phone": "+420 606 168 749",
+    "phone2": "+420 773 140 903",
+    "address": "Uh. Hradiště"
   },
   "menuItems": [
     {
