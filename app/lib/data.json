@@ -1,7 +1,7 @@
 {
   "profile": {
-    "name": "Patrik Indra",
-    "nameClaim": "Finanční specialista",
+    "name": "Kreativní duo",
+    "nameClaim": "Grafika, texty & reklamní předměty",
     "logo": "/assets/img/logo.svg",
     "logoDark": null,
     "image": "/assets/img/profileImage.webp",
@@ -12,12 +12,12 @@
     }
   },
   "meta": {
-    "title": "Patrik Indra - Saroli | Finanční specialista",
-    "description": "Jsem tu pro vás v oblasti finančního poradenství, hypoték a pojištění již více než 5 let.",
+    "title": "Kreativní duo | Grafika, texty & reklamní předměty",
+    "description": "Jsme kolegyně, kamarádky a tvůrčí duše, které se narodily ve stejný den, jen v jiném roce. Začalo to nevinně, ale přerostlo to v různé spolupráce, tak jsme si řekly, proč se více nenabídnout světu a tvořit i pro ostatní.",
     "openGraph": "/assets/openGraph.webp",
     "favicon": {
-      "label": "PI",
-      "background": "#5B319B",
+      "label": "KD",
+      "background": "#59479A",
       "foreground": "#fff"
     }
   },
@@ -175,15 +175,9 @@
     "socialItems": [
       {
         "id": 1,
-        "label": "Facebook",
-        "icon": "mingcute:facebook-line",
-        "link": "https://facebook.com"
-      },
-      {
-        "id": 2,
         "label": "Instagram",
         "icon": "ci:instagram",
-        "link": "https://facebook.com"
+        "link": "https://www.instagram.com/kreativni_duo"
       }
     ]
   }
