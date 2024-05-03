@@ -28,6 +28,10 @@ export default function Header() {
     setTheme(theme === 'dark' ? 'light' : 'dark')
   }
 
+  const closeMenu = (): void => {
+    setIsMenuOpen(false);
+  };
+
   useEffect(() => {
     const updateScroll = () => {
       setScrollPosition(window.scrollY || document.documentElement.scrollTop)
@@ -103,7 +107,7 @@ export default function Header() {
       <NavbarMenu className="bg-header-backgroundMobileToggle flex flex-col justify-center items-center">
         {data.menuItems.map((item: { title: string; link: string; id: number }) => (
           <NavbarMenuItem key={item.id}>
-            <Link href={item.link} className={`${classes.link} ${classes.linkMobile}`}>
+            <Link href={item.link} onClick={closeMenu} className={`${classes.link} ${classes.linkMobile}`}>
               {item.title}
             </Link>
           </NavbarMenuItem>
