@@ -28,10 +28,6 @@ export default function Header() {
     setTheme(theme === 'dark' ? 'light' : 'dark')
   }
 
-  const closeMenu = (): void => {
-    setIsMenuOpen(false);
-  };
-
   useEffect(() => {
     const updateScroll = () => {
       setScrollPosition(window.scrollY || document.documentElement.scrollTop)
