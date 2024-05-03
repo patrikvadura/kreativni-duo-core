@@ -87,6 +87,15 @@ const config: Config = {
               subtitle: '#59479A',
               highlight: '#F597A8',
             },
+            form: {
+              label: '#59479A',
+              placeholder: '#b5b5b5',
+              inputBorder: '#59479A',
+              inputBackground: '#fff',
+              submitBackground: '#59479A',
+              submitBackgroundHover: '#403275',
+              submitForeground: '#fff',
+            },
             footer: {
               text: '#000',
               logo: '#000',
@@ -147,6 +156,15 @@ const config: Config = {
               title: '#fff',
               subtitle: '#fff',
               highlight: '#59479A',
+            },
+            form: {
+              label: '#fff',
+              placeholder: '#fff',
+              inputBorder: '#fff',
+              inputBackground: 'transparent',
+              submitBackground: '#59479A',
+              submitBackgroundHover: '#403275',
+              submitForeground: '#fff',
             },
             footer: {
               text: '#fff',
