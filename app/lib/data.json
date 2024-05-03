@@ -55,25 +55,9 @@
         "imageDark": null,
         "list": {
           "listItems": [
-            {
-              "id": 1,
-              "label": "hypoteční úvěr"
-            },
-            {
-              "id": 2,
-              "label": "spotřebitelský úvěr"
-            },
-            {
-              "id": 3,
-              "label": "podnikatelský úvěr"
-            },
-            {
-              "id": 4,
-              "label": "leasing"
-            }
           ]
         },
-        "description": "Poskytujeme profesionální grafické designy pro firemní identitu, reklamní materiály a digitální obsah, který nakopne váš byznys."
+        "description": "Poskytujeme profesionální grafické designy pro firemní identitu, reklamní materiály a digitální obsah, který nakopne tvůj byznys."
       },
       {
         "title": "Texty",
@@ -82,25 +66,9 @@
         "imageDark": null,
         "list": {
           "listItems": [
-            {
-              "id": 1,
-              "label": "nemovitostní fondy"
-            },
-            {
-              "id": 2,
-              "label": "podílové fondy"
-            },
-            {
-              "id": 3,
-              "label": "akciové indexy"
-            },
-            {
-              "id": 4,
-              "label": "doplňkové penzijní spoření"
-            }
           ]
         },
-        "description": "Připravíme vám poutavý a hlavně prodejní text pro webové stránky, marketingové materiály a firemní komunikaci."
+        "description": "Připravíme ti poutavý a hlavně prodejní text pro webové stránky, marketingové materiály a firemní komunikaci."
       },
       {
         "title": "Reklamní předměty",
@@ -109,22 +77,6 @@
         "imageDark": null,
         "list": {
           "listItems": [
-            {
-              "id": 1,
-              "label": "životní pojištění"
-            },
-            {
-              "id": 2,
-              "label": "úrazové pojištění"
-            },
-            {
-              "id": 3,
-              "label": "pojištění nemovitosti"
-            },
-            {
-              "id": 4,
-              "label": "pojištění automobilu"
-            }
           ]
         },
         "description": "Nabízíme širokou škálu reklamních předmětů od propagačních dárků až po firemní merch."
@@ -142,7 +94,7 @@
     ]
   },
   "contact": {
-    "title": "Rády se budeme podílet na <span>tvém projektu</span>.",
+    "title": "Rády se budeme podílet i na <span>tvém projektu</span>.",
     "subtitle": "Zavolej nám nebo napiš",
     "email": "kreativniduo@email.cz",
     "phone": "+420 606 168 749",
