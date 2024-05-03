@@ -54,7 +54,6 @@ export default function Header() {
         wrapper: 'xl:px-0',
       }}
       maxWidth="xl"
-      isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
     >
       <NavbarBrand>
@@ -104,10 +103,10 @@ export default function Header() {
         className={classes.menuToggle}
       />
 
-      <NavbarMenu onClick={closeMenu} className="bg-header-backgroundMobileToggle flex flex-col justify-center items-center">
+      <NavbarMenu className="bg-header-backgroundMobileToggle flex flex-col justify-center items-center">
         {data.menuItems.map((item: { title: string; link: string; id: number }) => (
           <NavbarMenuItem key={item.id}>
-            <Link href={item.link} onPress={() => setIsMenuOpen()} className={`${classes.link} ${classes.linkMobile}`}>
+            <Link href={item.link} onClick={() => {setIsMenuOpen(!isMenuOpen)}} className={`${classes.link} ${classes.linkMobile}`}>
               {item.title}
             </Link>
           </NavbarMenuItem>
