@@ -104,7 +104,7 @@ export default function Header() {
         className={classes.menuToggle}
       />
 
-      <NavbarMenu isOpen={isMenuOpen} onClick={closeMenu} className="bg-header-backgroundMobileToggle flex flex-col justify-center items-center">
+      <NavbarMenu onClick={closeMenu} className="bg-header-backgroundMobileToggle flex flex-col justify-center items-center">
         {data.menuItems.map((item: { title: string; link: string; id: number }) => (
           <NavbarMenuItem key={item.id}>
             <Link href={item.link} onClick={closeMenu} className={`${classes.link} ${classes.linkMobile}`}>
