@@ -147,7 +147,34 @@
     "email": "kreativniduo@email.cz",
     "phone": "+420 606 168 749",
     "phone2": "+420 773 140 903",
-    "address": "Uh. Hradiště"
+    "address": "Uh. Hradiště",
+    "form": {
+      "submit": "Odeslat zprávu",
+      "items": [
+        {
+          "id": 1,
+          "label": "Tvoje jméno",
+          "type": "text",
+          "name": "name",
+          "placeholder": "např. Jan Novák"
+        },
+        {
+          "id": 2,
+          "label": "Emailová adresa",
+          "type": "email",
+          "name": "email",
+          "placeholder": "např. novak@seznam.cz"
+        },
+        {
+          "id": 3,
+          "textarea": true,
+          "rows": 4,
+          "label": "Tvoje zpráva",
+          "name": "message",
+          "placeholder": null
+        }
+      ]
+    }
   },
   "menuItems": [
     {
